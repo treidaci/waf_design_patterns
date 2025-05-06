@@ -1,2 +1,2 @@
 # waf_design_patterns
-Cloud Design Pattern as specified in WAF
+This repo contains my implementation of the [Cloud Design Pattern](https://learn.microsoft.com/en-gb/azure/architecture/patterns/) as specified in WAF.
