@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ambassador", "ambassador", "{FEB81346-BC63-FDE9-2883-2147D59C8D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbassadorProxy", "ambassador\AmbassadorProxy\AmbassadorProxy.csproj", "{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE} = {FEB81346-BC63-FDE9-2883-2147D59C8D15}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1E9BEC3-89A0-478A-9750-B707EE5306E5}
+	EndGlobalSection
+EndGlobal
