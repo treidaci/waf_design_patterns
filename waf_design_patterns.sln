@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ambassador", "ambassador", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbassadorProxy", "ambassador\AmbassadorProxy\AmbassadorProxy.csproj", "{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anti-corruption-layer", "anti-corruption-layer\anti-corruption-layer.csproj", "{7A264BDE-7169-4510-9CF7-F487BBCBBDF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "anti-corruption-layer", "anti-corruption-layer", "{7538B1BA-12BB-46BD-8B37-880D1072DB53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,12 +20,17 @@ Global
 		{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A264BDE-7169-4510-9CF7-F487BBCBBDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A264BDE-7169-4510-9CF7-F487BBCBBDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A264BDE-7169-4510-9CF7-F487BBCBBDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A264BDE-7169-4510-9CF7-F487BBCBBDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FEE6CB18-DAAB-FB49-BD7B-E3AD8B9C3DBE} = {FEB81346-BC63-FDE9-2883-2147D59C8D15}
+		{7A264BDE-7169-4510-9CF7-F487BBCBBDF3} = {7538B1BA-12BB-46BD-8B37-880D1072DB53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1E9BEC3-89A0-478A-9750-B707EE5306E5}
