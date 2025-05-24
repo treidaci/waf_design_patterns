@@ -6,7 +6,7 @@ A basic solution for a Backends for Frontends (BFF) architecture using a ClientO
 - A mock Onboarding service that returns test client data.
 - Common Program.cs setup for each API.
 
-The APIs are minimal APIs that mimic the structure above in terms of urls. Uisng the structure below for clarity:
+The APIs are minimal APIs that mimic the structure below in terms of urls. Uisng this structure for clarity:
 
 ```markdown
 BffClientOnboarding.sln
