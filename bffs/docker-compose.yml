@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  onboarding-service:
+    build:
+      context: .
+      dockerfile: OnboardingService/Dockerfile
+    ports:
+      - "5005:80"
+    networks:
+      - bff-network
+
+  web-bff:
+    build:
+      context: .
+      dockerfile: WebBffApi/Dockerfile
+    ports:
+      - "5001:80"
+    depends_on:
+      - onboarding-service
+    environment:
+      - OnboardingService__BaseUrl=http://onboarding-service
+    networks:
+      - bff-network
+
+  mobile-bff:
+    build:
+      context: .
+      dockerfile: MobileBffApi/Dockerfile
+    ports:
+      - "5002:80"
+    depends_on:
+      - onboarding-service
+    environment:
+      - OnboardingService__BaseUrl=http://onboarding-service
+    networks:
+      - bff-network
+
+networks:
+  bff-network:
+    driver: bridge
