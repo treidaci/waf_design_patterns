@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  simulated-api:
+    build:
+      context: .
+      dockerfile: SimulatedApi/Dockerfile
+    ports:
+      - "6000:8080"
+    networks:
+      - bulkhead-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/status/200"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+
+  bulkhead-worker:
+    build:
+      context: .
+      dockerfile: BulkheadWorker/Dockerfile
+    depends_on:
+      simulated-api:
+        condition: service_healthy
+    environment:
+      - ClientBaseUrl=http://simulated-api:8080
+    networks:
+      - bulkhead-net
+
+networks:
+  bulkhead-net:
+    driver: bridge

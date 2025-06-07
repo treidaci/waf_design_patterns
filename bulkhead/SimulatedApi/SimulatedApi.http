@@ -1,0 +1,6 @@
+@SimulatedApi_HostAddress = http://localhost:5255
+
+GET {{SimulatedApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
