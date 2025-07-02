@@ -399,3 +399,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/.idea/.idea.waf_design_patterns/.idea/indexLayout.xml
+/.idea/.idea.waf_design_patterns/.idea/projectSettingsUpdater.xml
+/.idea/.idea.waf_design_patterns/.idea/vcs.xml
+/.idea/.idea.waf_design_patterns/.idea/workspace.xml
