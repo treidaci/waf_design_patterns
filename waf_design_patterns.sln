@@ -54,6 +54,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoreographyDemo", "choreography\ChoreographyDemo\ChoreographyDemo.csproj", "{47A4BC30-E2FC-4F90-9EA2-CCFB619B0208}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "circuit-breaker", "circuit-breaker", "{DCE433A0-469B-48CE-BFE6-18357A4020E8}"
+	ProjectSection(SolutionItems) = preProject
+		circuit-breaker\readme.md = circuit-breaker\readme.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitBreaker", "circuit-breaker\CircuitBreaker\CircuitBreaker.csproj", "{D45DE7E2-C637-45EF-A7B2-8AC880DBEE84}"
 EndProject
