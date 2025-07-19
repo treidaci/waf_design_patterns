@@ -70,6 +70,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimCheckDemo", "claim-check\ClaimCheckDemo\ClaimCheckDemo.csproj", "{0D3144D6-1DEB-466C-9693-6BFBA798EF7F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "compensating-transaction", "compensating-transaction", "{414A316D-4E5B-4F94-B87F-425E852BAA13}"
+	ProjectSection(SolutionItems) = preProject
+		compensation-transaction\readme.md = compensation-transaction\readme.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompensationTransactionDemo", "compensation-transaction\CompensationTransactionDemo\CompensationTransactionDemo.csproj", "{95883A38-987D-4C59-8D45-478009985B4A}"
 EndProject
