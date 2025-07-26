@@ -1,4 +1,4 @@
-# CompetingConsumersAdvanced
+# Competing Consumers
 
 This project demonstrates the **Competing Consumers Pattern** using a local in-memory queue with advanced features like **backpressure**, **retry logic**, and **poison message detection**. It's implemented in C# using the .NET 9 framework and runs entirely as a local console application.
 
